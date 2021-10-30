@@ -1,0 +1,79 @@
+h2 {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    
+}
+
+
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+
+
+.cancel-order{
+    border: none;
+    color:hsl(224, 23%, 55%);
+    background-color: white;
+    margin-top: 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.planning h4 {
+    color: rgb(60, 60, 88);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.container {
+    background-color: white;
+    margin: 80px;
+    border-radius: 30px;
+    width: 37%;
+    margin-left: 33%;
+    padding-bottom: 3%;
+    
+}
+
+.para{
+    font-size: 16px;
+    color:hsl(224, 23%, 55%);
+    
+}
+
+.payment{
+    background-color: rgb(52, 52, 224);
+    border: none;
+    border-radius: 12px;
+    padding:15px 118px;
+    color: white;
+    
+}
+
+@media (max-width: 600px) {
+    .planning h4 {
+        color: red;
+    }
+  }
+
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    padding: 14px 8px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    margin: 32px;
+    font-size: 16px;
+}
+.mama{
+    min-width: 468px;
+    margin-left: -12px;
+    border-radius: 20px 20px 0 0;
+}
